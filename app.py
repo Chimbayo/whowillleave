@@ -27,7 +27,7 @@ mysql = MySQL(app)
 # ==============================================
 
 # Load the pre-trained LightGBM model from file
-model = joblib.load('machne_learning/saved_models/lgb_model.pkl')
+model = joblib.load('lgb_model.pkl')
 # ==============================================
 # ROUTE DEFINITIONS
 # ==============================================
